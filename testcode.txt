@@ -1,0 +1,3 @@
+--testcode
+client = pymongo.MongoClient("mongodb+srv://<username>:<password>@staging.awytu.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
+db = client.dashboard
